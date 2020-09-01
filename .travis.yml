@@ -7,3 +7,9 @@ before_install:
 
 script:
     - docker run -e CI=true rashed-08/docker-react npm run test
+
+deploy:
+    provider: heroku
+    api_key: "fc2b0467-019e-4708-81ae-91999e96316c"
+    app: docker-react-apps
+    
