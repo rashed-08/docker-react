@@ -11,6 +11,6 @@ script:
 deploy:
     provider: heroku 
     api_key: $Heroku_Key
-    app: rashed-08/docker-react-apps
+    app: docker-react-apps
     on:
-        branch: master
+        repo: master
