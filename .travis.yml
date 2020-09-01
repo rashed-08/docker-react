@@ -7,3 +7,9 @@ before_install:
 
 script:
     - docker run -e CI=true rashed-08/docker-react npm run test
+
+deploy:
+    provider: heroku 
+    app: rashed-08/docker-react-apps
+    on:
+        branch: master
