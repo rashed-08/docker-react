@@ -13,4 +13,4 @@ deploy:
     api_key: $Heroku_Key
     app: docker-react-apps
     on:
-        repo: master
+        repo: rashed-08/docker-react
